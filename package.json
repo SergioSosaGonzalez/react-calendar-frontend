@@ -21,6 +21,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start_fixed": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build_fixed": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
